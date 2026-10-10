@@ -32,9 +32,9 @@ Because the storage array is housed in an external DAS connected to the Proxmox 
     ```
     
 3. **Open OMV web GUI **
-    - verify that the disk appears natively in Storage->Disks \
-      ![Alt text](../images/OMV_storage_disks.png)
-    - Storage > File Systems to format and mount the partition. \
+    - verify that the disk appears natively in Storage->Disks 
+      ![Alt text](../images/omv_storage_disks.png)
+    - Storage > File Systems to format and mount the partition. 
       ![Alt text](../images/OMV_storage_file_systems.png)
 
 Alternatively, you could do the mounting via the terminal in ```/etc/fstab```.
