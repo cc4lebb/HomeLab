@@ -29,6 +29,7 @@ Netflix or other media servers actively remove some of your favourite movies and
 ## Creating a shared folder to download media to:
 1. on OMV go to: Storage -> shared folders then create a shared folder named Media which uses your HDD mounted previously.
 2. Go to services -> NFS -> Shares. Then give access to your Ubuntu VM. Personally, I gave access to my Proxmox as well. 
+
 ![Alt text](../images/OMV_nfs_shares.png)
 
 
