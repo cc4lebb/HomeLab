@@ -13,7 +13,6 @@ I needed to now configure that DAS so I can access the harddrives on my other de
 **DAS connection type**: USB 
 
 ## setup
-static ip: 192.168.1.244 \
 OMV VM ID: 102
 
 
