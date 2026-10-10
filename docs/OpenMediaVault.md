@@ -31,7 +31,7 @@ Because the storage array is housed in an external DAS connected to the Proxmox 
     qm set (omv_id) -scsi2 /dev/disk/by-id/(drive)
     ```
     
-3. **Open OMV web GUI 
+3. **Open OMV web GUI **
     - verify that the disk appears natively in Storage->Disks \
       ![Alt text](../images/OMV_storage_disks.png)
     - Storage > File Systems to format and mount the partition. \
