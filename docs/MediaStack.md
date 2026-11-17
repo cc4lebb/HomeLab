@@ -106,7 +106,7 @@ services:
       - 8000:8000  # gluetun api
     restart: unless-stopped
 
-  {download_client}:
+  ${download_client}:
     image: lscr.io/linuxserver/qbittorrent
     container_name: {download_client}
     network_mode: "service:gluetun"
@@ -169,3 +169,6 @@ services:
     restart: unless-stopped
 
 ```
+
+The docker compose shows how each image uses the correlated folder in my HDD. `/media-nfs/downloads` is used for the download client, whereas `/media-nfs/{tv or movie}` is used so that radarr and sonarr has access to their respective folder. This was done so that jellyfin can identify whether a download was movie or tv show. \
+The next thing I did was verify that sonarr and radarr was reading and writing to the correct folder. This was done in the web gui then going into `System -> Status` and scrolling to disk space which says each location.
