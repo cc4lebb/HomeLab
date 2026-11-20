@@ -1,3 +1,9 @@
+## Table of Contents
+
+- [Hardware Overview](#hardware-overview)
+- [Rack](#rack)
+- [Optiplex Shelf](#optiplex-shelf)
+
 # Hardware Overview
 
 This section covers the components I used with more detail than the readme. This includes the 3D prints that I used to make the rack, what I ordered for the homelab, and how I assembled it.
@@ -36,3 +42,9 @@ For the front, I used spare brass inserts but didnt have enough for the full len
 ![Alt text](images/minirack.png)
 
 # Optiplex Shelf
+
+As seen in the image above, the dell optiplex I use is mounted to the rack. I used [Psychobob's 10" rack Optiplex shelf](https://makerworld.com/en/models/2116002-10-rack-optiplex-shelf-rear-bracket-support#profileId-2289837), but because I did not have enough brass fitments or long enough bolts, I did not print the back supports, but the front mount handles the weight of the optiplex fine.
+
+# HDD Shelf
+
+(still adding)
