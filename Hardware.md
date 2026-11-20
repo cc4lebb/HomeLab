@@ -47,4 +47,16 @@ As seen in the image above, the dell optiplex I use is mounted to the rack. I us
 
 # HDD Shelf
 
-(still adding)
+I wanted a hot swappable HDD shelf on my homelab. I currently use a large DAS that does not fit in the mini rack, but I want a more compact design that is easy to move around when needed.
+
+I had to figure out a way to connect the HDD to the Optiplex. One way was to swap the m.2 SSD with a M.2. - SATA, but that meant sacrificing a drive for booting. I also did not want to clone the current SSD. Therefore, I opted for connecting it via USB which my previous DAS used to connect to the optiplex
+
+## Parts used
+
+- [Nautilus Forge 10" Rack 1U V2 Design](https://makerworld.com/en/models/1400538-10-inch-rack-1u-2-x-3-5-inch-hdd-hot-swap#profileId-3241847)
+- [CY 3.5 & 2.5 Inch SATA 22Pin 7+15 Male to SATA 22Pin 7+15 Female Extension Converter Adapter with Screw Holes](https://www.amazon.com.au/dp/B00EK9B13W?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+- [USB A to SATA Adapter](https://www.amazon.com.au/dp/B0FK2JFGTP?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [AC to DC 12V power adapter](https://www.amazon.com.au/dp/B07MM14TQC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+- [3.5" SAS hard drive tray](https://www.amazon.com.au/dp/B0DJL65NPM?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
+The reason why I chose Nautilus Forge's design was because it allows for ventilation and shows the parts that are required in the description, and shows the SATA male to female that is recommended to use to screw into the shelf. The problem is, it doesnt explicitly say how to connect via HDD, which I had to research to figure out myself, not that it should though.
