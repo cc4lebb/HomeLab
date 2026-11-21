@@ -18,6 +18,8 @@ My intention with printing is to:
 
 The reason why I intend to make my own DAS when I have one is because I think it looks cleaner and more portable. The DAS I bought it really heavy compared to ASA filament and I can print more HDD slots when I buy more drives. To me, it seems more convenient and looks much cleaner.
 
+[Link to makerworld homelab collection](https://makerworld.com/en/collections/41382125-homelab)
+
 ## 3D print setup
 
 - Printer: Bambu Lab P1S (non AMS)
