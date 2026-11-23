@@ -62,3 +62,10 @@ I had to figure out a way to connect the HDD to the Optiplex. One way was to swa
 - [3.5" SAS hard drive tray](https://www.amazon.com.au/dp/B0DJL65NPM?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 The reason why I chose Nautilus Forge's design was because it allows for ventilation and shows the parts that are required in the description, and shows the SATA male to female that is recommended to use to screw into the shelf. The problem is, it doesnt explicitly say how to connect via HDD, which I had to research to figure out myself, not that it should though.
+
+![Alt text](images/hdd_print.png)
+
+The design of a single HDD slot is as follows:
+![Alt text](images/hdd_single_flowchart.png)
+As you can see based on the image, the sled connects the HDD to the CY adapter, which is done so that the hard drives are easily hot swappable. Then the CY adapters are connected to a SATA to USB adapter so that the hard drives can get power and connect to the dell optiplex. \
+When I add a second hard drive, the plan is to use a 1-to-2 DC barrel splitter on the power supply so a single brick can run both drives. For data, I’ll just plug the second drive directly into another rear USB 3.0 port on the Optiplex since it has four available. I went this route because I plan to add a second micro PC for a cluster to handle OpenMediaVault, which gives me up to four native USB ports to expand into without needing a hub.
