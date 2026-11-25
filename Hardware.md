@@ -69,3 +69,10 @@ The design of a single HDD slot is as follows:
 ![Alt text](images/hdd_single_flowchart.png)
 As you can see based on the image, the sled connects the HDD to the CY adapter, which is done so that the hard drives are easily hot swappable. Then the CY adapters are connected to a SATA to USB adapter so that the hard drives can get power and connect to the dell optiplex. \
 When I add a second hard drive, the plan is to use a 1-to-2 DC barrel splitter on the power supply so a single brick can run both drives. For data, I’ll just plug the second drive directly into another rear USB 3.0 port on the Optiplex since it has four available. I went this route because I plan to add a second micro PC for a cluster to handle OpenMediaVault, which gives me up to four native USB ports to expand into without needing a hub.
+
+![Alt text](images/post_das.png)
+As you can see based on the image, the DAS was successfully mounted onto the case. To verify that it was actually mounted,I connected a smaller unmanaged switch temporarily which fit the case, then used the command `ls -la /dev/disk/by-id/ | grep sdb`, to verify that the output showed usb-WDC, representing my Western Digital hard drive.
+
+![Alt text](images/das_sdb.png)
+Next, I ran `findmnt /mnt/media-nfs` which verified that the mount is listed.
+![Alt text](images/findmnt_media.png)
